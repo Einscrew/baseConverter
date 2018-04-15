@@ -1,2 +1,11 @@
 # baseConverter
-C program to convert a decimal number to the respective one in the specified base
+C program to convert a decimal number to a given base
+
+## usage
+compile:
+
+`make`
+
+run:
+
+`./baseConverter`
