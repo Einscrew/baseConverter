@@ -1,5 +1,5 @@
-runable:
-	gcc -o runable baseConverter.c -g -Wall
+baseConverter: baseConverter.c
+	gcc -o $@ $^ -g -Wall
 
 clean:
-	rm -f runable
+	rm -f baseConverter

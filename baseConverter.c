@@ -26,15 +26,15 @@ int main() {
 	int num, base;
 	
 	printf("Introduza um numero em base 10 e a base de conversão [N B]:\n\t[Prima q para terminar]\n");
-
 	
 	do
 	{
+		printf("[INPUT]: ");
 		if(scanf("%d %d", &num, &base)!= 2 || base < 2)
 		{
 			return 1;
 		}
-		printf("->");
+		printf("[OUTPUT]:");
 		printf("%c\n", int_to_base(num, base));	
 	}while(!scanf("q"));
 	
